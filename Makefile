@@ -1,5 +1,5 @@
 CC=gcc
-INCLU=-I/usr/local/mdsplus/include
+INCL=-I/usr/local/mdsplus/include
 FLAGS=$(INCL) -L/usr/local/mdsplus/lib \
  -lMdsLib_client -g
 
