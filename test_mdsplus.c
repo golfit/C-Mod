@@ -5,6 +5,8 @@
 #include <string.h>
 #include <mdslib.h>
 
+#define status_ok(status (((status) & 1) == 1 )
+
 int main(int argc, char *argv[]){
     /* local vars */
     int status;
