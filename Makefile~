@@ -7,7 +7,7 @@ all: example
 
 # Note that Makefiles need tabs for separators, and four spaces don't equal a tab.  Wow.
 example: test_mdsplus.c
-	$(CC) $(FLAGS) test_mdsplus.c -o test_mdsplus
+	$(CC) $(FLAGS) test_mdsplus.cpp -o test_mdsplus
 
 clean:
 	rm -f *! core a.out test_mdsplus *.o
